@@ -1,0 +1,164 @@
+
+@font-face {
+    font-family: Starjedi;
+    src: url(font/star_jedi/starjedi/Starjedi.ttf);
+}
+*
+{
+    color: white;
+    margin: 0;
+    font-family: Starjedi;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin: 0;
+    padding: 0;
+    width: 99vw;
+    height: 100vh;
+    background-color: black;
+    background: url(image/Capture\ d’écran\ 2022-11-24\ à\ 14.04.11.png)  fixed center;
+}
+h1
+{
+    font-family: Starjedi;
+    color: rgb(255, 230, 13);
+}
+footer
+{
+    margin-top: 4%
+}
+#animun
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+}
+#imgetoilenoir
+{
+    transition: transform 0.5s; 
+}
+.txtanimun
+{
+    font-size: 1.5em;
+}
+#imgetoilenoir:hover
+{
+    transform: scale(0.8);
+}
+#animde
+{
+    display: none;
+    width: 100%;
+}
+header
+{
+    color: white;
+    width: 100%;
+    min-width: 800px;
+    text-align: right;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: url(image/coque\ haut\ .png) center;
+    position: fixed;
+}
+#photos
+{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+h2
+{
+    width: 100%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.txtanimde
+{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.titre
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.dessus
+{
+    width: 40%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+#imgun
+{
+    width: 50%;
+}
+.dessus:hover
+{
+    transform: scale(1.2);
+}
+#imgde
+{
+    width: 50%;
+}
+#imgtr
+{
+    width: 50%;
+}
+footer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10%;
+}
+.foot
+{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+.boiteimgbas
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+@media screen and (max-width: 1024px)
+{
+    #background
+    {
+        transform: rotate(90deg);
+        width: 500%;
+    }
+}
